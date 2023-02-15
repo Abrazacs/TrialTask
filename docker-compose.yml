@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  app:
+    image: abrazacs/trial_app:0.0.1
+    container_name: trial-app
+    restart: always
+    ports:
+      - "8187:8187"
